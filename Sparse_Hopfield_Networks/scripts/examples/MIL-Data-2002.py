@@ -32,7 +32,7 @@ def get_args():
     num_processes = 8
     parser = argparse.ArgumentParser(description='Examples of MIL benchmarks:')
     parser.add_argument('--dataset', default="fox", type=str, choices=['fox', 'tiger', 'elephant'])
-    parser.add_argument('--ypsi', default="normalization", type=str, choices=['normalization', "layer_normalization"])
+    parser.add_argument('--ypsi', default="normalization", type=str, choices=['normalization', "layer_normalization", "identity"])
     parser.add_argument('--mode', default='normmax', type=str, choices=['softmax', 'sparsemax', "entmax", "sparsemap", "normmax"])
     parser.add_argument('--k', help='k exact ones for sparsemap', default=5, type=int)
     parser.add_argument('--alpha', help='alpha for normmax', default=5, type=float)
