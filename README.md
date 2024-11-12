@@ -63,6 +63,7 @@ Follow the instructions of the branch in [hopfield-spectra](https://github.com/d
 ## Acknowledgment
 
 The experiments in this work benefit from the following open-source codes:
+
 *Saul Santos, Vlad Niculae, Daniel C McNamee, and Andre F.T. Martins. Sparse and structured hopfield networks. In International Conference on Machine Learning, 2024. https://github.com/deep-spin/SSHN
 * Ramsauer, Hubert, Bernhard Schäfl, Johannes Lehner, Philipp Seidl, Michael Widrich, Thomas Adler, Lukas Gruber et al. "Hopfield networks is all you need." arXiv preprint arXiv:2008.02217 (2020). https://github.com/ml-jku/hopfield-layers
 * Martins, Andre, and Ramon Astudillo. "From softmax to sparsemax: A sparse model of attention and multi-label classification." In International conference on machine learning, pp. 1614-1623. PMLR, 2016. https://github.com/deep-spin/entmax
