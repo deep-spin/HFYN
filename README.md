@@ -30,7 +30,7 @@ This code was tested on `Python 3.10.10`. To install, follow these steps:
 5. Run the corresponding scripts
 
 ### Reproducibility
-#### Memory Retrieval
+#### Memory Retrieval Modeling
 
 Run the script `memory_retrieval_modeling.py`
 
