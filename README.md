@@ -1,4 +1,4 @@
-# Hopfield-Fenchel-Young Networks:A Unified Framework for Associative Memory Retrieval
+# Hopfield-Fenchel-Young Networks: A Unified Framework for Associative Memory Retrieval
 Official implementation of the paper **Hopfield-Fenchel-Young Networks: A Unified Framework for Associative Memory Retrieval**.
 
 *Saul Santos*, *Vlad Niculae*, *Daniel McNamee* and *André Martins*
