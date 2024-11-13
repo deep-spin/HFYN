@@ -3,7 +3,9 @@ Official implementation of the paper **Hopfield-Fenchel-Young Networks: A Unifie
 
 *Saul Santos*, *Vlad Niculae*, *Daniel McNamee* and *André Martins*
 
-<img src="./overview.png" alt="Alt text" width="400"/>
+<p align="center">
+  <img src="./overview.png" alt="Alt text" width="1000"/>
+</p>
 **Abstract**: *Associative memory models, such as Hopfield networks and their modern variants, have garnered renewed interest due to advancements in memory capacity and connections with self-attention in transformers. In this work, we introduce a unified framework—Hopfield- Fenchel-Young networks—which generalizes these models to a broader family of energy functions. Our energies are formulated as the difference between two Fenchel-Young losses: one, parameterized by a generalized entropy, defines the Hopfield scoring mechanism, while the other applies a post-transformation to the Hopfield output. By utilizing Tsallis and norm entropies, we derive end-to-end differentiable update rules that enable sparse transformations, uncovering new connections between loss margins, sparsity, and exact retrieval of single memory patterns. We further extend this framework to structured Hopfield networks using the SparseMAP transformation, allowing the retrieval of pattern associations rather than a single pattern. Our framework unifies and extends traditional and modern Hopfield networks and provides an energy minimization perspective for widely used post-transformations like ℓ<sub>2</sub>-normalization and layer normalization—all through suitable choices of Fenchel-Young losses and by using convex analysis as a building block. Finally, we validate our Hopfield-Fenchel-Young networks across diverse memory recall tasks, including free and sequential recall. Experiments on simulated data, image retrieval, multiple instance learning, and text rationalization demonstrate the effectiveness of our approach.*
 
 ----------
