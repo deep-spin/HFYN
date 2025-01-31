@@ -4,12 +4,9 @@ Official implementation of the paper **Hopfield-Fenchel-Young Networks: A Unifie
 *Saul Santos*, *Vlad Niculae*, *Daniel McNamee* and *André Martins*
 
 <p align="center">
-  <img src="./inf_video_llama.png" alt="Alt text" width="1000"/>
+  <img src="./overview.png" alt="Alt text" width="1000"/>
 </p>
-**Abstract**: *Current video-language models struggle with long-video understanding due to limited context lengths and reliance on sparse frame subsampling, often leading to information loss.
-This paper introduces \textsc{$\infty$-Video}, which can process arbitrarily long videos through a continuous-time long-term memory (LTM) consolidation mechanism. Our framework augments video Q-formers by allowing them to process unbounded video contexts efficiently and without requiring additional training. 
-Through continuous attention, our approach dynamically allocates higher granularity to the most relevant video segments, forming ``sticky'' memories that evolve over time. 
-Experiments with Video-LLaMA and VideoChat2 demonstrate improved performance in video question-answering tasks, showcasing the potential of continuous-time LTM mechanisms to enable scalable and training-free comprehension of long videos.*
+**Abstract**: *Associative memory models, such as Hopfield networks and their modern variants, have garnered renewed interest due to advancements in memory capacity and connections with self-attention in transformers. In this work, we introduce a unified framework—Hopfield- Fenchel-Young networks—which generalizes these models to a broader family of energy functions. Our energies are formulated as the difference between two Fenchel-Young losses: one, parameterized by a generalized entropy, defines the Hopfield scoring mechanism, while the other applies a post-transformation to the Hopfield output. By utilizing Tsallis and norm entropies, we derive end-to-end differentiable update rules that enable sparse transformations, uncovering new connections between loss margins, sparsity, and exact retrieval of single memory patterns. We further extend this framework to structured Hopfield networks using the SparseMAP transformation, allowing the retrieval of pattern associations rather than a single pattern. Our framework unifies and extends traditional and modern Hopfield networks and provides an energy minimization perspective for widely used post-transformations like ℓ<sub>2</sub>-normalization and layer normalization—all through suitable choices of Fenchel-Young losses and by using convex analysis as a building block. Finally, we validate our Hopfield-Fenchel-Young networks across diverse memory recall tasks, including free and sequential recall. Experiments on simulated data, image retrieval, multiple instance learning, and text rationalization demonstrate the effectiveness of our approach.*
 
 ----------
 
@@ -19,7 +16,7 @@ Experiments with Video-LLaMA and VideoChat2 demonstrate improved performance in 
 
 ## Resources
 
-- [Paper](to add) (arXiv)
+- [Paper](https://arxiv.org/abs/2411.08590) (arXiv)
 
 All material is made available under the MIT license. You can **use, redistribute, and adapt** the material for **non-commercial purposes**, as long as you give appropriate credit by **citing our paper** and **indicating any changes** that you've made.
 
